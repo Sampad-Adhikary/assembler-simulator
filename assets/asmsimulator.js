@@ -1365,7 +1365,7 @@ var app = angular.module('ASMSimulator', []);
     $scope.speed = 4;
     $scope.outputStartIndex = 232;
 
-    $scope.code = "; Simple example\n;";
+    $scope.code = "; Write your code here.\n";
 
     $scope.reset = function () {
         cpu.reset();
